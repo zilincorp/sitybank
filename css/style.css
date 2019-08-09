@@ -86,6 +86,7 @@ a {
   color: #4488bb;
   box-sizing: border-box;
 }
+
 .form-buttons {
   display: flex;
   justify-content: space-between;
@@ -233,7 +234,6 @@ a {
 
 .container3 {
   padding: 10px;
-  /*background-color: #eeeeee;*/
 }
 
 .container3 h2 {
@@ -318,12 +318,6 @@ a {
   padding: 0;
 }
 
-/*.container4 .content ol li p{*/
-/*color: #4488bb;*/
-/*font-size: 18px;*/
-/*font-weight: 400;*/
-/*}*/
-
 .rounded2 li:first-child p {
   margin-top: 17px;
 }
@@ -370,22 +364,9 @@ a {
   height: 40px;
   padding: 10px;
   box-sizing: border-box;
-  /*padding: 5px 15px;*/
   outline: none;
   transition: all 0.2s;
 }
-
-/*.form-input:valid {*/
-  /*border: 1px solid #4488bb;*/
-/*}*/
-
-
-
-/*.form-input:invalid {*/
-  /*border: 1px solid #bb4444;*/
-/*}*/
-
-
 
 .form-label {
   position: absolute;
@@ -402,11 +383,6 @@ a {
   font-size: 10px;
   color: #aaaaaa;
 }
-
-
-
-
-
 
 .form-item .close {
   position: absolute;
@@ -461,7 +437,6 @@ a {
 .select:before {
   content: url(../img/triangle.png);
   display: inline-block;
-  /*background: #eeeeee;*/
   position: absolute;
   right: 2px;
   top: 13px;
@@ -470,14 +445,12 @@ a {
   height: 50px;
   text-align: center;
   line-height: 26px;
-  /*border: 2px solid #ddd;*/
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .select input[name="list"]:not(:checked) ~ #text {
   background: #eeeeee;
-  /*border-radius: 3px;*/
   color: #aaaaaa;
   font-size: 16px;
   font-weight: 400;
@@ -510,7 +483,6 @@ a {
 }
 
 .items label {
-  /*border-top: 2px solid #ddd;*/
   display: none;
   padding-left: 10px;
   background: #eeeeee;
@@ -548,7 +520,6 @@ a {
   bottom: 0;
   right: 0;
   z-index: 0;
-  /*background: rgba(0,0,0,0.4);*/
 }
 
 /*стилизация псевдоселекта*/
@@ -716,9 +687,6 @@ a {
 
 @media screen and (min-width: 1000px) {
 
-  /*.container2-item a {*/
-  /*position: relative;*/
-  /*}*/
   .container2-item-overlay {
 
     transform: translate(0%, calc(100% - 40px));
@@ -780,14 +748,9 @@ a {
 
 }
 
-
-
 /*Медазакпросы*/
 
-
 /*Попапы*/
-
-
 #notify {
   position: absolute;
   width: 168px;
@@ -804,22 +767,20 @@ a {
   bottom: -46px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
   opacity: 1;
-  /*transition: all 0.2s;*/
 }
 
 #notify:before {
   content: '';
   position: absolute;
-  left: 74px; bottom: 35px;
+  left: 74px;
+  bottom: 35px;
   border: 10px solid transparent;
-  border-bottom:  10px solid #bb4444;
+  border-bottom: 10px solid #bb4444;
 }
 
 input.invalid {
   border: 1px solid #bb4444 !important;
 }
-
-
 
 .input-error {
   position: absolute;
@@ -837,58 +798,37 @@ input.invalid {
   bottom: -46px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
   display: none;
-opacity: 0;
-  /*transition: all 0.2s;*/
+  opacity: 0;
 }
 
 .input-error-checkbox {
   left: -75px;
 }
 
-
 .input-error:before {
   content: '';
   position: absolute;
-  left: 74px; bottom: 35px;
+  left: 74px;
+  bottom: 35px;
   border: 10px solid transparent;
-  border-bottom:  10px solid #bb4444;
+  border-bottom: 10px solid #bb4444;
 }
-
-/*удалить*/
-
-
-/*.form-input:hover .input-error, .form-item:hover .input-error {*/
-  /*display: block;*/
-  /*opacity: 0;*/
-  /*!*transition: all 0.2s;*!*/
-  /*animation: ani1 0.1s linear forwards 1 ;*/
-/*}*/
-
-/*удалить*/
 
 @keyframes ani1 {
   from {
-  opacity: 0}
+    opacity: 0
+  }
   to {
-  opacity: 1}
+    opacity: 1
+  }
 }
-
 
 .error-block {
   display: block;
   opacity: 0;
   transition: all 0.2s;
-  animation: ani1 0.1s linear forwards 1 ;
+  animation: ani1 0.1s linear forwards 1;
 }
-
-
-
-
-
-
-
-
-
 
 /*Попапы*/
 
