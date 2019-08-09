@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="container container1">
+    <div class="content">
+      <header>
+        <h1>Banner header</h1>
+        <div class="header_border"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud</p>
+      </header>
+      <div class="block-form">
+        <h2>Request form</h2>
+        <form name="form" onsubmit="return validate()">
+          <div class="form-item">
+            <input type="text" name="email" class="form-input input-email" required>
+            <span class="close" onclick="this.previousElementSibling.value = ''">&times;</span>
+            <label class="form-label">Enter your E-Mail</label>
+            <div class="input-error" id="emailf">
+              Enter correct E-Mail
+            </div>
+          </div>
+          <div class="form-item">
+            <input type="text" name="name" class="form-input input-name" required>
+            <span class="close" onclick="this.previousElementSibling.value = ''">&times;</span>
+            <label class="form-label">Enter your Name</label>
+            <div class="input-error" id="namef">
+              Enter correct Name
+            </div>
+          </div>
+          <label for="select" class="select">
+            <input type="radio" name="list" value="not_changed" id="bg" checked>
+            <input type="radio" name="list" value="not_changed" id="select">
+            <label class="bg" for="bg"></label>
+            <div class="items">
+              <input type="radio" name="list" value="first_value" id="list[0]" class="input-countru" checked >
+              <label for="list[0]">Germany</label>
+              <input type="radio" name="list" value="second_value" id="list[1]" class="input-countru">
+              <label for="list[1]">USA</label>
+              <span id="text">Select your country</span>
+            </div>
+          </label>
+          <!--чекбокс-->
+
+          <input type="checkbox" class="checkbox input-checbox" id="checkbox"/>
+          <label for="checkbox" class="checkbox_label">I agree with Terms & Conditions <div class="input-error input-error-checkbox">
+            Сheck сheckbox
+          </div></label>
+
+          <!--чекбокс-->
+          <div class="form-buttons">
+            <button class="button2" type="submit">Submit</button>
+
+            <a href="#">Hyperlink</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-background">
+    <div class=" container container2">
+      <div class="container2-item container2-item1">
+        <a href="">
+          <div class="container2-item-overlay">
+            <div class="container2-item-overlay-title"><h2>Post header 1</h2><img src="img/container2-item-decor.png"
+                                                                                  alt=""></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea
+              commodo consequat. </p>
+          </div>
+        </a></div>
+      <div class="container2-item container2-item2">
+        <a href="">
+          <div class="container2-item-overlay">
+            <div class="container2-item-overlay-title"><h2>Post header 2</h2><img src="img/container2-item-decor.png"
+                                                                                  alt=""></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea
+              commodo consequat. </p>
+          </div>
+        </a></div>
+      <div class="container2-item container2-item3"><a href="">
+        <div class="container2-item-overlay">
+          <div class="container2-item-overlay-title"><h2>Post header 3</h2><img src="img/container2-item-decor.png"
+                                                                                alt=""></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea
+            commodo consequat. </p>
+        </div>
+      </a></div>
+      <div class="container2-item container2-item4"><a href="">
+        <div class="container2-item-overlay">
+          <div class="container2-item-overlay-title"><h2>Post header 4</h2><img src="img/container2-item-decor.png"
+                                                                                alt=""></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea
+            commodo consequat. </p>
+        </div>
+      </a></div>
+      <div class="container2-item container2-item5"><a href="">
+        <div class="container2-item-overlay">
+          <div class="container2-item-overlay-title"><h2>Post header 5</h2><img src="img/container2-item-decor.png"
+                                                                                alt=""></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea
+            commodo consequat. </p>
+        </div>
+      </a></div>
+    </div>
+    <div class="container container3">
+      <div class="imac"><img src="img/imac.png" alt=""></div>
+      <div class="container3-items">
+        <h2>Title text</h2>
+        <ol class="rounded">
+          <li><p>Duis aute irure dolor in
+            reprehenderit<sup>1</sup> in voluptate
+            velit</p>
+          </li>
+          <li><p>
+            Ullamco laboris nisi ut
+            aliquip ex ea commodo
+            consequat
+          </p>
+          </li>
+          <li><p>
+            Ut enim ad minim veniam,
+            quis nostrud exercitation
+          </p>
+          </li>
+          <li><p>
+            Et dolore magna aliqua
+          </p></li>
+          <li><p>
+            Sed do eiusmod tempor<sup>2</sup>
+            incididunt ut labore
+          </p>
+          </li>
+          <li><p>
+            Lorem ipsum dolor sit
+            amet<sup>3</sup>, consectetur
+            adipisicing elit
+          </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="container container4">
+    <div class="content">
+      <ol class="rounded2">
+        <li><p>
+          Reprehenderit - Lorem ipsum
+          dolor sit amet, consectetur
+          adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore
+        </p>
+        </li>
+        <li><p>
+          Tempor - Ut enim ad minim
+          veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex
+          ea commodo consequat.
+        </p>
+        </li>
+        <li><p>
+          Amet - Duis aute irure dolor in
+          reprehenderit in voluptate velit
+          esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/script.js"></script>
+
+<!--ТЕст-->
+
+<!--Тест-->
+
+
+</body>
+</html>
